@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>動物の画像認識</title>
+    <link rel="stylesheet" href="./static/stylesheet2.css">
+</head>
+<body>
+    <header class="header">  
+        <h1>動物の画像認識</h1>      
+    </header>
+
+    <div class="main">    
+        <h2> AIが送信された画像の動物を識別します</h2>
+        <p>画像を送信してください</p>
+        <form method="POST" enctype="multipart/form-data">
+            <input class="file_choose" type="file" name="file">
+            <input class="btn" value="submit!" type="submit">
+        </form>
+        <div class="answer">{{answer}}</div>
+        <img class="main-img" src="/static/img/araiguma_side.png" alt="">
+        <img class="main-img2" src="/static/img/bear_higuma.png" alt="">
+        <img class="main-img3" src="/static/img/hakubishin.png" alt="">
+        <img class="main-img4" src="/static/img/inoshishi.png" alt="">
+        <img class="main-img5" src="/static/img/itachi.png" alt="">
+        <img class="main-img6" src="/static/img/nihonjika_tsuno.png" alt="">
+
+    </div>
+
+    <footer>  
+    </footer>
+</body>
+</html>

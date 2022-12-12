@@ -1,0 +1,95 @@
+.header {
+    Background: #4ba574;
+    height: 80px; 
+    margin: -8px 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+h1 {
+    Color: #ffffff;
+    font-size: 38px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main {
+    height: 370px;
+}
+
+h2 {
+    color: #444444;
+    margin: 70px 0px;
+    text-align: center;
+}
+
+p {
+    color: #444444;
+    margin: 30px 0px 30px  0px;
+    text-align: center;
+}
+
+.answer {
+    color: #444444;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.main-img {
+    width:  120px;
+    height: 120px;
+    text-align: center;
+    margin: 40px 10px 30px 280px;
+}
+
+.main-img2 {
+    width:  120px;
+    height: 120px;
+    text-align: center;
+    margin: 40px 10px 30px 0px;
+}
+
+.main-img3 {
+    width:  120px;
+    height: 120px;
+    text-align: center;
+    margin: 40px 10px 30px 0px;
+}
+
+.main-img4 {
+    width:  120px;
+    height: 120px;
+    text-align: center;
+    margin: 40px 10px 30px 0px;
+}
+ 
+.main-img5 {
+    width:  120px;
+    height: 120px;
+    text-align: center;
+    margin: 40px 10px 30px 0px;
+}
+
+.main-img6 {
+    width:  120px;
+    height: 120px;
+    text-align: center;
+    margin: 40px 10px 30px 5px;
+}
+    
+
+footer {
+    background: #76B55B;
+    height: 110px; 
+    margin: -8px;
+    position: relative;
+    top: 10px;
+
+}
+
+/* relative */
