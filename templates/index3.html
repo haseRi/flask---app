@@ -13,21 +13,39 @@
     </header>
 
     <div class="main">    
-        <h2> AIが送信された画像の動物を識別します</h2>
+        <h2> AIが送信された画像の動物、以下6種類を識別</h2>
         <p>画像を送信してください</p>
         <form method="POST" enctype="multipart/form-data">
             <input class="file_choose" type="file" name="file">
             <input class="btn" value="submit!" type="submit">
         </form>
         <div class="answer">{{answer}}</div>
-        <img class="main-img" src="/static/img/araiguma_side.png" alt="">
-        <img class="main-img2" src="/static/img/bear_higuma.png" alt="">
-        <img class="main-img3" src="/static/img/hakubishin.png" alt="">
-        <img class="main-img4" src="/static/img/inoshishi.png" alt="">
-        <img class="main-img5" src="/static/img/itachi.png" alt="">
-        <img class="main-img6" src="/static/img/nihonjika_tsuno.png" alt="">
 
+    <div class="main-img">
+        <img src="/static/img/araiguma_side.png" alt="">
+        <p class="img-p">アライグマ</p>
     </div>
+    <div class="main-img2">    
+        <img src="/static/img/bear_higuma.png" alt="">
+        <p class="img-p">ヒグマ</p>
+    </div>
+    <div class="main-img3">
+        <img src="/static/img/hakubishin.png" alt="">
+        <p class="img-p">ハクビシン</p>
+    </div>
+    <div class="main-img4">
+        <img src="/static/img/inoshishi.png" alt="">
+        <p class="img-p">イノシシ</p>
+    </div>
+    <div class="main-img5">
+        <img src="/static/img/itachi.png" alt="">
+        <p class="img-p">イタチ</p>
+    </div>
+    <div class="main-img6"> 
+        <img src="/static/img/nihonjika_tsuno.png" alt="">
+        <p class="img-p">シカ</p>    
+    </div>
+
 
     <footer>  
     </footer>
